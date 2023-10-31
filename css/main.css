@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+
+/* General */
+
+.hidden {
+  display: none !important;
+}
+
+h1 {
+  font-family: 'Shizuru', cursive;
+}
+
+h2, h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  display: flex;
+  padding-right: 6em;
+  padding: 6em;
+  background-color: #FBF8F1;
+  justify-content: space-between;
+}
+
+
+/* head */
+#head {
+  padding: 2em;
+  background-color: #f8039e;
+}
+
+#head h2 {
+  font-size: 40px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  font-family: 'Shizuru', cursive !important;
+  text-align: left !important;
+  margin-left: 1.6em;
+}
+
+#head h2 a {
+  color: white;
+}
+
+.secCap {
+  font-family: 'Shizuru', cursive;
+  font-size: 15px;
+  color: rgb(252, 4, 198);
+  letter-spacing: 0px;
+}
+
+/* Instruments 1 */
+
+#musicInstru1 {
+  float: left;
+}
+
+#musicInstru1 h2 {
+  letter-spacing: 3px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(252, 0, 126);
+  padding: .5em;
+}
+
+.insPart {
+  display: flex;
+  margin: 2em;
+}
+
+.instru1 img {
+  width: 120px;
+  height: 120px;
+}
+
+.instru2 img {
+  width: 120px;
+  height: 120px;
+  margin-left: .4em;
+}
+
+.instru3 img {
+  width: 120px;
+  height: 120px;
+  margin-left: 4.5em;
+}
+
+
+
+
+/* Characters */
+
+#characters {
+  margin: 0;
+}
+
+#characters .ani {
+  letter-spacing: 3px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  width: 350px;
+  height: 350px;
+  margin-top: 3em;
+  line-height: 350px;
+  margin-left: 5.5em;
+}
+
+#characters .h2Ele {
+  letter-spacing: 3px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(252, 0, 126);
+  padding: .5em;
+  margin-top: 1em;
+}
+
+#chara {
+  display: flex;
+  flex-direction: row;
+}
+
+.bird img {
+  width: 120px;
+  height: 120px;
+  padding: .5em;
+}
+
+#reset {
+	margin-top: 1em;
+	width: 80px;
+	height: 40px;
+	color: white;
+  background-color: #54BAB9;
+  margin-left: 17.5em;
+  border-radius: 10px;
+}
+
+#reset:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transform: scale(1.2);
+
+  -moz-transition: all .8s ease-in !important;
+  -webkit-transition: all .8s ease-in !important;
+  -o-transition: all .8s ease-in !important;
+  transition: all .8s ease-in !important;
+}
+
+
+/* Instruments 2 */
+
+#musicInstru2 {
+  float: right;
+}
+
+#musicInstru2 h2 {
+  letter-spacing: 3px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(252, 0, 126);
+  padding: .5em;
+}
